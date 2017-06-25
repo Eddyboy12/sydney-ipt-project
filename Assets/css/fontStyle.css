@@ -1,0 +1,128 @@
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.1em;
+}
+
+strong {
+    font-size: 1.3em;
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+}
+
+h2 {
+    font-family: 'Oswald', sans-serif;
+    color: #ff8c00;
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+
+h3 {
+    font-family: 'Oswald', sans-serif;
+}
+
+h4 {
+    font-family: 'Oswald', sans-serif;
+}
+
+h5 {
+    font-family: 'Oswald', sans-serif;
+}
+
+h6 {
+    font-family: 'Oswald', sans-serif;
+}
+
+.backgroundImage {
+    position: relative;
+    width: 100%;
+}
+
+.title {
+    position: absolute;
+    top: 0.2em;
+    text-align: center;
+    width: 100%;
+    color: #FFF;
+    font-size: 10vw;
+    margin: 5% auto;
+}
+
+body {
+    margin: 0;
+    background-color: #FFF;
+}
+
+.links {
+    text-decoration: none;
+    color: dodgerblue;
+}
+
+iframe {
+    display: block;
+    margin: 0 auto;
+}
+
+.container {
+    font-family: 'Open Sans', sans-serif;    
+}
+
+@media screen and (min-width: 1148px) {
+    .container {
+        width: 100%;
+        text-align: left;
+    }
+    
+    .whatsOn {
+        float: left;
+        width: 15%;
+        padding: 1%;
+    }
+    
+    .content {
+        display: inline-block;
+        margin: 0 auto;
+        width: 75%;
+        padding: 1%;
+        border-left-style: solid;
+        border-color: dodgerblue;
+    }
+    
+    .authors {
+        float: right;
+        width: 38%;
+        padding: 1%;
+        
+    }
+    }
+    
+img#homeImg1 {
+    display: block;
+    width: 30%;
+    height: 30%;
+    margin: 0 auto;
+}
+
+img#bridgeImg1 {
+    width: 20%;
+    height: 10%;
+    float: right;
+}
+img#operaImg1 {
+    width: 20%;
+    height: 10%;
+    float: right;
+}
+
+img#beachImg1 {
+    display: block;
+    width: 60%;
+  position: relative;
+  margin: 0 auto;
+}
+
+img#towerImg1 {
+    display: block;
+    margin: 0 auto;
+}
