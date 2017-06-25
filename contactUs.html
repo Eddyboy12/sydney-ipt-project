@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset = "utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact Us</title>
+        <link rel="shortcut icon" href="Assets/Images/favicon.ico" type="image/x-icon" />
+        
+        <link rel="stylesheet" href="Assets/css/navbarStyle.css" type="text/css" />
+        <link rel="stylesheet" href="Assets/css/fontStyle.css" type="text/css" />
+        <link rel="stylesheet" href="Assets/css/contactPage.css" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans|Oswald" rel="stylesheet">
+    </head>
+    
+    <body>
+        <nav class = "nav">
+             <ul>
+                <li class = "home"><a href = "index.html">Home</a></li>
+                <li class = "bridge"><a href = "harbourBridge.html">Harbour Bridge</a></li>
+                <li class = "opera"><a href = "operaHouse.html">Opera House</a></li>
+                <li class = "tower"><a href = "sydneyTower.html">Sydney Tower</a></li>
+                <li class = "beach"><a href = "bondiBeach.html">Bondi Beach</a></li>
+                <li class = "contact"><a class = "active" href = "contactUs.html">Contact Us</a></li>
+            </ul>
+        </nav>
+        <div class = "backgroundImage">
+            <h1 class = "title">Contact Us</h1>
+            <img src="Assets/Images/contactUs/contactBackground.jpg" alt = "Background" style = "width: 100%; height: 100%"/>
+        </div>
+        <div class = "container">
+            <div class = "whatsOn">
+                <h2>What's On</h2>
+                <ul>
+                    <li><b>VIVID Sydney (26 May - 17 June):</b> Vivid Sydney is an annual outdoor lighting festival with immersive light installations and projections in Sydney.</li>
+                    <li><b>NAIDOC Week (2 - 9 July):</b> NAIDOC Week celebrates the history, culture and achievements of Aboriginal and Torres Strait Islander peoples.</li>
+                    <li><b>Free Museum Weekend (24 - 25 June):</b> Free general admission on the last weekend of June to The Australian Museum, Powerhouse Museum and Museum Discovery Centre.</li>
+                </ul>
+            </div>
+            <div class = "content">
+                <h2 id = "heading">Get in Touch</h2>
+                <form>
+                    <strong>First Name:</strong><br>
+                    <input class = "form" type="text" placeholder= "eg. John" name="firstName"/><br><br>
+                    <strong>Last Name:</strong><br>
+                    <input class = "form" type="text" placeholder= "eg. Smith" name="lastName"/><br><br>
+                    <strong>Email Address:</strong><br>
+                    <input class = "form" type="text" placeholder= "example@mail.com" name="email"/><br><br>
+                    <strong>Reason for Contacting Us:</strong><br>
+                    <select class = "form" name= placeholder="Select one below" name="issue">
+                        <option value="info">I would like more information</option>
+                        <option value="report">Report a bug or error</option>
+                        <option value="recommend">Make a recommendation</option>
+                        <option value="other">Other (Specify below)</option>
+                    </select><br><br>
+                    <strong>Message:</strong><br>
+                    <textarea class = "form" name="message" rows="10" cols="30">Write your message here.</textarea><br><br>
+                    <input class = "form" type="submit" value="Submit"/>
+                </form>
+            </div>
+            <div class = "authors">
+                <h2>The Authors</h2>
+                <strong>Edwin Lam</strong>
+                <p>Nerd who reads and programs when he isn't studying (a rare occurrence). On a side note, repsonsible for majority of design and development of this website.</p>
+                <p>Email Address: nottellingyoumylegitemail@mail.com</p>
+                <p>Phone Number: 01000101</p>
+                <strong>Rowan Silcock</strong>
+                <p>Scholar and German God (just not so great at IPT (I'm joking don't kill me please)). Responsible for much of the Design Documentation.</p>
+                <p>Email Address: emailimadeup@mail.com</p>
+                <p>Phone Number: 01010010</p>
+                <strong>Vincent Go</strong>
+                <p>He's just Vinnie. Responsible for the webpage content, HTML and elements of Design Documentation.</p>
+                <p>Email Address: wassupposedtowritethishtmlbutleftmetodoitinstead@mail.com</p>
+                <p>Phone Number: 01010110</p>
+            </div>
+        </div>    
+    </body>
+</html>
